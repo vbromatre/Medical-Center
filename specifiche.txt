@@ -1,0 +1,18 @@
+LOGIN/LOGOUT
+Ci sono due bottoni nel menu principale per effettuare il login e i logout
+TABELLA PRINCIPALE
+Nella tabella principale un'amministratore vede le possibili tipologie di esame,i prerequisiti e i risultati possibili.
+Un utente loggato o un paziente vedono solo le possibili tipologie d'esame.
+CASO D'USO UC1
+Un'utente registrato/non registrato/amministratore seleziona dal menu a tendina Esami -> Dettagli Tip. Esame e si apre un dialog
+dove si chiede l'id dell'esame,una volta inserito si apre un altro dialog con i dettagli dell'esame.In caso di errore compare un alert "error"
+CASO D'USO UC4
+Un amministratore loggato seleziona dal menu a tendina Amministrazione -> Aggiungi Tip. Esame e si apre un menu a tendina dove si chiedono 
+i dettagli della nuova tipologia d'esame.
+Una volta inseriti c'è un refresh della tabella tipologie esami sulla pagina principale.In caso di errore compare un alert "error"
+CASO D'USO UC2
+Un amministratore loggato seleziona dal menu a tendina Amministrazione -> Aggiungi Esame e si apre un menu a tendina dove si chiedono Id della tipologia
+d'esame, id del medico e id del paziente per l'esame.Una volta inseriti non succede niente.In caso di errore compare un alert "error"
+CASO D'USO UC5
+Un amministratore loggato seleziona dal menu a tendina Amministrazione -> Esame effett. Medico e si apre un menu a tendina dove si chiede nome e cognome del medico.
+Il sistema restituisce un dialog con gli esami dettagliati prenotati per quel medico.In caso di errore compare un alert "error"
